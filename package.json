@@ -9,7 +9,8 @@
     "lint": "next lint",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "analyze": "cross-env ANALYZE=true next build"
+    "analyze": "cross-env ANALYZE=true next build",
+    "prepare": "husky"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.52.1",
@@ -28,6 +29,7 @@
     "eslint": "^8",
     "eslint-config-next": "14.2.6",
     "eslint-config-prettier": "^9.1.0",
+    "husky": "^9.1.5",
     "prettier": "^3.3.3",
     "prettier-plugin-organize-imports": "^4.0.0",
     "typescript": "^5"
